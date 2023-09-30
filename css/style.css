@@ -1,0 +1,208 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./burger-nav.css";
+@import "./fonts.css";
+@import "./normalize.css";
+@import "./accordion.css";
+@import "./adaptive.css";
+/* @import "./modal.css"; */
+
+body.lock {
+    overflow: hidden;
+}
+
+/* :root {
+    --main-bg-color: #000;
+    --main-content-color: #eafc52;
+    --main-font-color: #fff;
+    --ff: "TT Firs Neue";
+    --fw-n: normal;
+    --fw-b: bold;
+    --fw-l: light;
+    --fs-16: 0.75rem;
+    --fs-18: 1rem;
+    --fs-20: 1.25rem;
+    --fs-22: 1.375rem;
+    --fs-30: 1.875rem;
+    --fs-40: 2.5rem;
+    --fs-60: 3.75rem;
+    --fs-80: 5rem;
+} */
+
+.wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: calc(940px + 48px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+/* Custom input */
+.custom-select {
+    position: relative;
+    border: 1px solid #1b1717;
+    border-radius: 10px;
+    font-family: "TT Firs Neue";
+    font-size: 20px;
+    font-weight: 400;
+    color: #817676;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: transparent;
+    color: #817676;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 10px;
+    background-image: url("../assets/images/select-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 22px;
+    height: 15px;
+    content: "";
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-image: url("../assets/images/select-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 22px;
+    height: 15px;
+    content: "";
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,
+.select-selected {
+    color: #817676;
+    padding: 8px 16px;
+
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+    position: absolute;
+    background-color: #eeebdd;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border: 1px solid #1b1717;
+    border-radius: 10px;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* Custom input end */
+
+/* @media (-webkit-device-pixel-ratio: 1.25) {
+    * {
+        zoom: 0.8;
+    }
+} */
+
+.form-alert {
+    position: fixed;
+    top: 20px;
+    right: 16px;
+    z-index: 9999999;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    line-height: 130%;
+    background: #c44a4a;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(40px);
+}
+
+.visible-alert {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+    :root {
+        zoom: 1;
+    }
+}
+@media (-webkit-device-pixel-ratio: 1.1) {
+    :root {
+        zoom: 1;
+    }
+}
+@media (-webkit-device-pixel-ratio: 1.5) {
+    :root {
+        zoom: 1;
+    }
+}
+@media (-webkit-device-pixel-ratio: 1.75) {
+    :root {
+        zoom: 0.8;
+    }
+}
+@media (-webkit-device-pixel-ratio: 2) {
+    :root {
+        zoom: 0.8;
+    }
+}

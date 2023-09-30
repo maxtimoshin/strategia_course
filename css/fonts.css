@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Regular.eot");
+    src:
+        local("TT Firs Neue Regular"),
+        local("TTFirsNeue-Regular"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Regular.woff2") format("woff2"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Regular.woff") format("woff"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-DemiBold.eot");
+    src:
+        local("TT Firs Neue DemiBold"),
+        local("TTFirsNeue-DemiBold"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-DemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-DemiBold.woff2") format("woff2"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-DemiBold.woff") format("woff"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-DemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Bold.eot");
+    src:
+        local("TT Firs Neue Bold"),
+        local("TTFirsNeue-Bold"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Bold.woff2") format("woff2"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Bold.woff") format("woff"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-ExtraBold.eot");
+    src:
+        local("TT Firs Neue ExtraBold"),
+        local("TTFirsNeue-ExtraBold"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-ExtraBold.woff2") format("woff2"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-ExtraBold.woff") format("woff"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Medium.eot");
+    src:
+        local("TT Firs Neue Medium"),
+        local("TTFirsNeue-Medium"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Medium.woff2") format("woff2"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Medium.woff") format("woff"),
+        url("../fonts/TTFirsNeue/TTFirsNeue-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}

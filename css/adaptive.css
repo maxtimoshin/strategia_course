@@ -1,0 +1,18 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (min-width: 1440px) and (max-width: 2561px) {
+    :root {
+        zoom: 1.1 !important;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+    :root {
+        zoom: 1 !important;
+    }
+}

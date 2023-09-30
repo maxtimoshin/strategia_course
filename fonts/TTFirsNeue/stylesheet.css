@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Regular.eot');
+    src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
+        url('TTFirsNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTFirsNeue-Regular.woff2') format('woff2'),
+        url('TTFirsNeue-Regular.woff') format('woff'),
+        url('TTFirsNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-DemiBold.eot');
+    src: local('TT Firs Neue DemiBold'), local('TTFirsNeue-DemiBold'),
+        url('TTFirsNeue-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('TTFirsNeue-DemiBold.woff2') format('woff2'),
+        url('TTFirsNeue-DemiBold.woff') format('woff'),
+        url('TTFirsNeue-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Bold.eot');
+    src: local('TT Firs Neue Bold'), local('TTFirsNeue-Bold'),
+        url('TTFirsNeue-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTFirsNeue-Bold.woff2') format('woff2'),
+        url('TTFirsNeue-Bold.woff') format('woff'),
+        url('TTFirsNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-ExtraBold.eot');
+    src: local('TT Firs Neue ExtraBold'), local('TTFirsNeue-ExtraBold'),
+        url('TTFirsNeue-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('TTFirsNeue-ExtraBold.woff2') format('woff2'),
+        url('TTFirsNeue-ExtraBold.woff') format('woff'),
+        url('TTFirsNeue-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Medium.eot');
+    src: local('TT Firs Neue Medium'), local('TTFirsNeue-Medium'),
+        url('TTFirsNeue-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTFirsNeue-Medium.woff2') format('woff2'),
+        url('TTFirsNeue-Medium.woff') format('woff'),
+        url('TTFirsNeue-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+

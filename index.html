@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      type="image/x-icon"
+      rel="shortcut icon"
+      href="./assets/images/favicons/32x32.ico"
+    />
+    <link type="image/png" sizes="16x16" rel="icon"
+    href=./assets/images/favicons/16x16.png" /> <link type="image/png"
+    sizes="32x32" rel="icon" href=./assets/images/favicons/32x32.png" /> <link
+    type="image/png" sizes="96x96" rel="icon"
+    href=./assets/images/favicons/96x96.png" /> <link type="image/png"
+    sizes="120x120" rel="icon" href=./assets/images/favicons/120x120.png" />
+
+    <title>Стратегія курс</title>
+  </head>
+
+  <body>
+    <div class="form-alert">Будь ласка, заповніть всі поля.</div>
+    <div class="form-modal-wrapper">
+      <div class="form-modal-content">
+        <div class="modal-title">
+          Замовлення послуги
+          <img src="./assets/images/modal-cross.svg" class="modal-cross" />
+        </div>
+
+        <form class="action-form modal-form" action="">
+          <div class="form-inputs-grid">
+            <input
+              class="input1 form-input modal-company-input"
+              name="company"
+              placeholder="назва компанії"
+              type="text"
+              required
+            />
+            <input
+              class="input2 form-input modal-name-input"
+              name="name"
+              placeholder="прізвище та імʼя"
+              type="text"
+            />
+            <input
+              class="input3 form-input modal-job-title-input"
+              name="jobTitle"
+              placeholder="посада в компанії"
+              type="text"
+            />
+            <input
+              class="input4 form-input modal-phone-input"
+              name="phone"
+              placeholder="телефон"
+              type="text"
+            />
+            <input
+              class="input5 form-input modal-email-input"
+              name="email"
+              placeholder="пошта"
+              type="text"
+            />
+            <div class="custom-select">
+              <select>
+                <option value="0">послуга</option>
+                <option value="1">маркетингова стратегія</option>
+                <option value="2">брендинг та айдентика</option>
+                <option value="3">побудова відділу маркетингу</option>
+                <option value="4">аудит маркетингу</option>
+                <option value="5">консультація</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="form-submit-button modal-submit-button">
+            замовити
+          </button>
+        </form>
+      </div>
+
+      <div class="success-modal">
+        <img
+          src="./assets/images/success-rocket.png"
+          alt=""
+          class="success-image"
+        />
+        <div class="success-content">
+          <img
+            src="./assets/images/modal-cross.svg"
+            class="modal-cross success-cross"
+          />
+          <div class="title">Вітаємо</div>
+          <span
+            >Ваш запит успішно відправлено.<br />
+            Ми зв’яжемось з вами найближчим часом.</span
+          >
+          <button class="header-action-button modal-cross">на головну</button>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <img
+          src="./assets/images/left-header-abstraction.svg"
+          alt=""
+          class="left-header-abstraction header-abstraction"
+        />
+        <img
+          src="./assets/images/right-header-abstraction.svg"
+          alt=""
+          class="right-header-abstraction header-abstraction"
+        />
+        <div class="container">
+          <div class="header-nav">
+            <a href="" class="logo"
+              ><img src="./assets/images/logo.svg" alt=""
+            /></a>
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a href="">про курс</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="">для кого</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="">демо і програма</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="">ціна</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="">спікер</a>
+              </li>
+            </ul>
+            <button class="header-action-button">придбати</button>
+          </div>
+          <div class="header-content">
+            <h2>курс з маркетингу та стратегії</h2>
+            <h1>«все по ... плану»</h1>
+            <div class="header-content-description">
+              повний курс про те, як створювати ефективні маркетингові стратегії
+            </div>
+            <div class="header-content-about-course">
+              <img
+                src="./assets/images/left-header-about-course-text.png"
+                alt=""
+              />
+              <div class="header-content-about-course-center-block">
+                <img
+                  src="./assets/images/person-picture.webp"
+                  alt=""
+                  class="header-content-person"
+                />
+                <button class="header-content-about-course-button">
+                  про курс
+                  <img src="./assets/images/header-course-arrow.svg" alt="" />
+                </button>
+              </div>
+
+              <img
+                src="./assets/images/right-header-about-course-text.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="trouble-cases-block">
+            <div class="title">чи знайомі тобі ситуації?</div>
+            <div class="trouble-cases">
+              <div class="trouble-case">
+                <span>хочу зробити бізнес</span>проте не знаю з чого почати
+              </div>
+              <div class="trouble-case right-trouble-case">
+                <span>ми запустили проєкт</span>але немає клієнтів...
+              </div>
+              <div class="trouble-case">
+                <span>спробували вже десятки інструментів</span>і дійшли
+                висновку, що маркетинг не працює
+              </div>
+              <div class="trouble-case right-trouble-case">
+                <span>ми живемо без стратегії</span>робимо так, як вміємо
+              </div>
+              <div class="trouble-case">
+                <span>найняли маркетолога</span>але результатів немає
+              </div>
+              <div class="trouble-case right-trouble-case">
+                <span>у нас дуже багато планів, але не можемо</span>визначитись,
+                що дійсно потрібно робити?
+              </div>
+            </div>
+          </div>
+          <div class="block-title">
+            <div class="upper-block-title">
+              <div class="upper-block-title-text">
+                скажу одразу, це — <span>нормально</span>
+              </div>
+              <div class="upper-block-title-line"></div>
+            </div>
+            <div class="lower-block-title">
+              <div class="lower-block-title-line"></div>
+              <div class="lower-block-title-text">
+                і моя задача — допомогти<br />
+                розібратись з такими ситуаціями
+              </div>
+            </div>
+          </div>
+          <div class="opinions-block">
+            <div class="title">на мою думку</div>
+            <div class="opinions-content">
+              <div class="opinion">
+                <div class="opinion-content">
+                  маркетинг — не тільки про креатив.<br />
+                  <span>маркетинг</span> — в першу чергу про <span>гроші</span>
+                </div>
+                <img
+                  src="./assets/images/opinion-arrow.svg"
+                  alt=""
+                  class="opinion-arrow"
+                />
+              </div>
+              <div class="opinion right-opinion">
+                <img
+                  src="./assets/images/opinion-arrow.svg"
+                  alt=""
+                  class="opinion-arrow"
+                />
+                <div class="opinion-content">
+                  мета курсу — допомогти зробити так,<br />
+                  щоб ваш бізнес працював
+                  <div class="opinion-round-text">не по ..., а по плану</div>
+                </div>
+              </div>
+              <div class="opinion">
+                <div class="opinion-content">
+                  за допомогою стратегічних рішень<br />
+                  бо <span>стратегічний маркетинг</span> — це<br />
+                  системний, запланований ріст бізнесу
+                </div>
+                <img
+                  src="./assets/images/opinion-arrow.svg"
+                  alt=""
+                  class="opinion-arrow"
+                />
+              </div>
+              <div class="opinion right-opinion">
+                <div class="opinion-content">
+                  та <span>гроші на рахунку компанії.</span>
+                  <div class="opinion-round-text">а вже потім креатив</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-title">
+            <div class="upper-block-title">
+              <div class="upper-block-title-text">
+                місія курсу «все по ... плану»:
+              </div>
+              <div class="upper-block-title-line"></div>
+            </div>
+            <div class="lower-block-title">
+              <div class="lower-block-title-line"></div>
+              <div class="lower-block-title-text">
+                <span>покращити якість</span> управління<br />
+                українського бізнесу, через<br />
+                поширення <span style="color: #000">доступних</span> знань
+              </div>
+            </div>
+          </div>
+          <div class="product-for-block">
+            <div class="title">для кого цей продукт?</div>
+            <div class="product-for-content">
+              <div class="left-for-product-content">
+                <div class="product-for-item red-block">
+                  власникам бізнесу
+                  <span>
+                    знайти нові ідеї та точки довгострокового росту власного
+                    бізнесу
+                  </span>
+                  <img src="./assets/images/product-for-arrows.svg" alt="" />
+                </div>
+                <div class="product-for-item longer">
+                  стартаперам
+                  <span
+                    >проаналізувати власний проєкт та підготувати до
+                    інвестицій</span
+                  >
+                  <img src="./assets/images/product-for-gear.svg" alt="" />
+                </div>
+                <div class="product-for-item">
+                  операційним директорам
+                  <span
+                    >приймати правильні стратегічні рішення та масштабувати
+                    команду</span
+                  >
+                  <img src="./assets/images/product-for-spike.svg" alt="" />
+                </div>
+              </div>
+              <div class="right-for-product-content">
+                <div class="product-for-item longer">
+                  підприємцям та фрілансерам
+                  <span
+                    >підготуватись до запуску власної справи, щоб не наробити
+                    помилок</span
+                  >
+                  <img src="./assets/images/product-for-circle.svg" alt="" />
+                </div>
+                <div class="product-for-item">
+                  маркетологам
+                  <span>краще виконувати свою роботу та карʼєрно зростати</span>
+                  <img src="./assets/images/product-for-star.svg" alt="" />
+                </div>
+                <div class="product-for-item red-block">
+                  digital спеціалістам
+                  <span
+                    >зрозуміти на якому рівні бізнес-стратегії ви дієте і що
+                    зараз потрібно клієнту</span
+                  >
+                  <img src="./assets/images/product-for-triangle.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="after-passing-block">
+            <div class="title">що буде після проходження?</div>
+            <div class="after-passing-content">
+              <div class="after-passing-item">
+                <img src="./assets/images/human-icon.svg" alt="" />
+                будеш розмовляти однією мовою з маркетологами
+              </div>
+              <div class="after-passing-item">
+                <img src="./assets/images/chart-up.svg" alt="" />
+                збільшиш прибутковість бізнесу або проєкту
+              </div>
+              <div class="after-passing-item">
+                <img src="./assets/images/humans-icon.svg" alt="" />
+                зрозумієш свою цільову аудиторію та її потреби
+              </div>
+              <div class="after-passing-item">
+                <img src="./assets/images/three-icon.svg" alt="" />
+                навчишся швидко та якісно аналізувати будь-який бізнес
+              </div>
+              <div class="after-passing-item">
+                <img src="./assets/images/flag-icon.svg" alt="" />
+                зможеш будувати ефективні стратегії маркетингу
+              </div>
+              <div class="after-passing-item">
+                <img
+                  style="transform: scaleY(-1)"
+                  src="./assets/images/chart-up.svg"
+                  alt=""
+                />
+                зменшиш ризик невизначенності у своєму бізнесі
+              </div>
+            </div>
+          </div>
+          <div class="video-block">
+            <div class="title">відео-курс «все по ... плану»</div>
+            <div class="sub-title">
+              пропоную поглянути демо-урок, щоб зрозуміти чи підходить тобі
+              формат
+            </div>
+            <iframe
+              width="941"
+              height="530"
+              style="border-radius: 20px"
+              src="https://www.youtube.com/embed/HKdqETLuivY"
+              title="Запрошення на курс «все по ... плану»"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="course-program-block">
+          <img
+            src="./assets/images/left-accordion-abstract.svg"
+            class="left-accordion-abstract"
+            alt=""
+          />
+          <img
+            src="./assets/images/right-accordion-abstract.svg"
+            class="right-accordion-abstract"
+            alt=""
+          />
+          <div class="container">
+            <div class="title">програма:</div>
+            <div class="course-program-content stages-accordion">
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>1</span>
+                  <span>основа</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>інтро про стратегію та стратегів</li>
+                    <li>типи стратегій та ринкова стратегія</li>
+                    <li>конструктор стратегій</li>
+                    <li>
+                      в чому суть маркетингу, що робити owner-у, а що команді
+                    </li>
+                    <li>ієрархія стратегій</li>
+                    <li>бізнес-модель (Business Model Canvas)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>2</span>
+                  <span>продукт</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>
+                      як знайти свій ринок, аналіз ринку PAM, TAM, SAM, SOM,
+                      PESTEL
+                    </li>
+                    <li>створення ціннісної пропозиції Product Discovery</li>
+                    <li>ціноутворення, цінова політика</li>
+                    <li>Unit-економіка</li>
+                    <li>MVP та MMP — основи</li>
+                    <li>життєвий цикл бізнесу і продукту</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>3</span>
+                  <span>конкуренти</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>аналіз конкурентів (прямі / непрямі)</li>
+                    <li>SWOT</li>
+                    <li>«білий» шпіонаж за конкурентами</li>
+                    <li>
+                      конкурентна перевага, (не) унікальні торгові переваги
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>4</span>
+                  <span>клієнт</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>11 методів аналізу клієнта (кількісні / якісні)</li>
+                    <li>8 фреймворків інтерпретації інформації про клієнта</li>
+                    <li>ядро аудиторії (buyer persona)</li>
+                    <li>карта клієнтського шляху і клієнтський досвід</li>
+                    <li>підходи до тестування та генерації гіпотез</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>5</span>
+                  <span>бренд</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>що таке бренд та коли він потрібен</li>
+                    <li>три складових бренду</li>
+                    <li>змістовна частина бренду</li>
+                    <li>
+                      вербальна частина бренду + слогани + ключові повідомлення
+                    </li>
+                    <li>візуальна частина бренду</li>
+                    <li>коли робити брендинг, а коли ребрендинг</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>6</span>
+                  <span>комунікація</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>вибір каналів комунікації</li>
+                    <li>побудова комунікаційної стратегії</li>
+                    <li>стратегічне і тактичне повідомлення</li>
+                    <li>стратегічне повідомлення</li>
+                    <li>як працювати без «креативу» і коли він треба?</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>7</span>
+                  <span>система</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>синхронізація маркетингу з іншими відділами</li>
+                    <li>маркетинг + продажі</li>
+                    <li>CRM-система</li>
+                    <li>когортний аналіз + RFM-аналіз</li>
+                    <li>ключові KPI</li>
+                    <li>маркетинг-план, маркетинг-бюджет, план-факт</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>8</span>
+                  <span>команда</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>посади та обовʼязки</li>
+                    <li>орг структура відділу маркетингу</li>
+                    <li>типи планування (OKR, SMART, SCRUM, Kanban)</li>
+                    <li>комунікація в команді</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion">
+                  <span>9</span>
+                  <span>опис стратегії</span>
+                  <div class="accordion-cross"></div>
+                </button>
+                <div class="panel">
+                  <ul class="accordion-list">
+                    <li>як сформувати, описати та активувати стратегію</li>
+                    <li>фінальна постановка цілей стратегії</li>
+                    <li>конструктор стратегії + структура презентації</li>
+                    <li>методи створення стратегій</li>
+                    <li>як створити Єдинорога</li>
+                    <li>50+ типів стратегій на всі випадки життя</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="video-access-label">
+              доступ до відео — &nbsp<span>12 місяців</span>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="course-prices-block">
+            <div class="title">яка ціна знань?</div>
+            <div class="sub-title">купуйте досвід, а не тимчасові рішення</div>
+            <div class="courses-prices-content">
+              <div class="course-item">
+                <div class="course-title">
+                  <img src="./assets/images/course-triangle.svg" alt="" />Курс
+                </div>
+                <div class="course-consult">самостійно</div>
+                <div class="course-price">5 499₴</div>
+                <ul class="course-benefits-list">
+                  <li>доступ до <span>9</span> модулів</li>
+                  <li><span>22</span> відео в записі</li>
+                  <li><span>5,5</span> годин контенту</li>
+                </ul>
+                <div class="course-action-button">придбати</div>
+              </div>
+              <div class="course-item middle-course">
+                <div class="course-title">
+                  <img src="./assets/images/product-for-spike.svg" alt="" />Курс
+                </div>
+                <div class="course-consult">
+                  + 1 консультація<span>рекомендую</span>
+                </div>
+                <div class="course-price">9 499₴</div>
+                <ul class="course-benefits-list">
+                  <li>доступ до <span>9</span> модулів</li>
+                  <li><span>22</span> відео в записі</li>
+                  <li><span>5,5</span> годин контенту</li>
+                  <li>
+                    <span>1</span> індивідуальна консультація
+                    <sub>(1 година)</sub>
+                  </li>
+                </ul>
+                <div class="course-action-button">придбати</div>
+              </div>
+              <div class="course-item">
+                <div class="course-title">
+                  <img src="./assets/images/spike2.svg" alt="" />Курс
+                </div>
+                <div class="course-consult">3 консультації</div>
+                <div class="course-price">17 499₴</div>
+                <ul class="course-benefits-list">
+                  <li>доступ до <span>9</span> модулів</li>
+                  <li><span>22</span> відео в записі</li>
+                  <li><span>5,5</span> годин контенту</li>
+                  <li>
+                    <span>3</span> індивідуальні консультація
+                    <sub>(3 години)</sub>
+                  </li>
+                </ul>
+                <div class="course-action-button">придбати</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-price-block">
+            <div class="title">чому така ціна на курс?</div>
+            <div class="about-price-content">
+              <div class="about-price-item">
+                <div class="about-price-title">
+                  <img src="./assets/images/circle.svg" alt="" />
+                  проста відповідь:
+                  <div class="about-price-line"></div>
+                </div>
+                <div class="about-price-description">
+                  тому що це не основний мій бізнес і ціль цього<br />
+                  продукту — дати доступні знання,<br />
+                  через самостійне вивчення.
+                </div>
+              </div>
+              <div class="about-price-item">
+                <div class="about-price-title">
+                  <img src="./assets/images/gears.svg" alt="" />
+                  складна відповідь:
+                  <div class="about-price-line"></div>
+                </div>
+                <div class="about-price-description">
+                  ви робите менше стратегічних помилок,<br />
+                  отже, заробляєте більше грошей<br />
+                  отже, більше інструментів тестуєте<br />
+                  отже, важчі задачі виникають<br />
+                  отже, мої послуги стають дорожче.<br />
+                  тому —
+                  <span>вчіться, тестуйте, заробляйте, звертайтесь.</span>
+                </div>
+              </div>
+              <div class="about-price-item">
+                <div class="about-price-title">
+                  <img src="./assets/images/meditation.svg" alt="" />
+                  ідеологічна відповідь:
+                  <div class="about-price-line"></div>
+                </div>
+                <div class="about-price-description">
+                  більше ви знаєте про стратегію —<br />
+                  більше якісних бізнесів створюєте,<br />
+                  отже, вища конкуренція,<br />
+                  отже, краще функціонування ринку.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="format-block">
+            <div class="title">формат:</div>
+            <div class="format-grid">
+              <div class="format-grid-item">
+                <img src="./assets/images/fhd.svg" alt="" />
+                22 відео в записі,<br />
+                у високій якості
+              </div>
+              <div class="format-grid-item">
+                <img src="./assets/images/eye.svg" alt="" />
+                дивись тоді коли тобі зручно
+              </div>
+              <div class="format-grid-item">
+                <img src="./assets/images/clock.svg" alt="" />
+                <p>
+                  1 тема = 1 відео<br />
+                  <span>5 --- 30 --- хв</span>
+                </p>
+              </div>
+              <div class="format-grid-item">
+                <img src="./assets/images/youtube-icon.svg" alt="" />
+                зручний перегляд на YouTube
+              </div>
+              <div class="format-grid-item">
+                <img src="./assets/images/infitine.svg" alt="" />
+                немає дати старту та кінця
+              </div>
+              <div class="format-grid-item">
+                <img src="./assets/images/robot.svg" alt="" />
+                телеграм-бот для комунікації
+              </div>
+              <div class="format-grid-item last-format-grid-item">
+                <img src="./assets/images/tools.svg" alt="" />
+                лише реальні інструменти, які я використовую в роботі
+              </div>
+            </div>
+            <div class="get-button">придбати</div>
+          </div>
+          <div class="aware-block">
+            <div class="title">а і ще, на курсі ти не зустрінеш:</div>
+            <div class="aware-content">
+              <div class="aware-item">
+                <span>#1</span>
+                набридливих<br />
+                кураторів
+              </div>
+              <div class="aware-item">
+                <span>#2</span>
+                зайвих чатів
+              </div>
+              <div class="aware-item">
+                <span>#3</span>
+                нікому не потрібних<br />
+                сертифікатів
+              </div>
+            </div>
+          </div>
+          <div class="video-block bottom-video-block">
+            <div class="title">хто говорить?</div>
+            <iframe
+              width="941"
+              height="530"
+              style="border-radius: 20px"
+              src="https://www.youtube.com/embed/HKdqETLuivY"
+              title="Запрошення на курс «все по ... плану»"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="person-block">
+            <div class="person-info">
+              <img src="./assets/images/person-picture.webp" alt="" />
+              <span>Гутніченко Євгеній</span>
+              маркетинг-стратег
+            </div>
+            <div class="person-achievements">
+              <div class="single-achievement">
+                <img src="./assets/images/7.svg" alt="" />
+                <div class="number">7 років</div>
+                <span
+                  >в агенціях та<br />
+                  всередині бізнесу</span
+                >
+              </div>
+              <div class="single-achievement">
+                <img src="./assets/images/15.svg" alt="" />
+                <div class="number">15 ніш</div>
+                <span
+                  >з якими працював<br />
+                  від IT до агросектору</span
+                >
+              </div>
+              <div class="single-achievement">
+                <img src="./assets/images/30+.svg" alt="" />
+                <div class="number">30+ клієнтів</div>
+                <span
+                  >для яких були <br />
+                  створені стратегії</span
+                >
+              </div>
+              <div class="single-achievement">
+                <img src="./assets/images/1.svg" alt="" />
+                <div class="number">$1млн доходу</div>
+                <span
+                  >за місяць для 1-го клієнта<br />
+                  в результаті роботи</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="clients-block">
+            <div class="title">де і з ким працював:</div>
+            <div class="clients-content">
+              <div class="upper-clients-list">
+                <img src="./assets/images/bk.svg" alt="" />
+                <img src="./assets/images/pizza-hut.svg" alt="" />
+                <img src="./assets/images/audi.svg" alt="" />
+                <img src="./assets/images/shell.svg" alt="" />
+              </div>
+              <div class="lower-clients-list">
+                <img src="./assets/images/kuna.svg" alt="" />
+                <img src="./assets/images/mi.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="block-title">
+            <div class="upper-block-title">
+              <div class="upper-block-title-text">
+                щоб: задати питання, запросити <br />
+                на виступ, замовити консультацію
+              </div>
+              <div class="upper-block-title-line"></div>
+            </div>
+            <div class="lower-block-title">
+              <div class="lower-block-title-line"></div>
+              <div class="lower-block-title-text">
+                заповни міні форму — і давай<br />
+                знайомитись <span>особисто</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-block">
+          <div class="container">
+            <form class="contact-form">
+              <div class="title"></div>
+              <input type="text" />
+              <input type="text" />
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <button></button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/accordion.js"></script>
+  </body>
+</html>
