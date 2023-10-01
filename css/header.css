@@ -54,6 +54,11 @@
     color: #1b1717;
     font-weight: 400;
     font-size: 16px;
+    transition: all 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #810000;
 }
 
 .header-action-button {
@@ -64,8 +69,15 @@
     font-weight: 400;
     border: none;
     border-radius: 5px;
+    border: 2px solid #1b1717;
     cursor: pointer;
     margin: 0 0 0 65px;
+    transition: all 0.3s;
+}
+
+.header-action-button:hover {
+    background-color: transparent;
+    color: #1b1717;
 }
 
 .header-content {
@@ -145,4 +157,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
