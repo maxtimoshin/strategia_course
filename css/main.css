@@ -685,7 +685,7 @@
 }
 
 .single-achievement img {
-    content: "";
+    /* content: ""; */
     width: fit-content;
     position: absolute;
     left: 50%;
