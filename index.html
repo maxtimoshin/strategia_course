@@ -75,7 +75,11 @@
               </select>
             </div>
           </div>
-          <button type="submit" class="form-submit-button modal-submit-button">
+          <button
+            type="submit"
+            onclick="console.log('test')"
+            class="form-submit-button modal-submit-button"
+          >
             замовити
           </button>
         </form>
@@ -120,19 +124,19 @@
             /></a>
             <ul class="nav-list">
               <li class="nav-list-item">
-                <a href="">про курс</a>
+                <a class="course-about-button">про курс</a>
               </li>
               <li class="nav-list-item">
-                <a href="">для кого</a>
+                <a class="course-for-button">для кого</a>
               </li>
               <li class="nav-list-item">
-                <a href="">демо і програма</a>
+                <a class="course-demo-button">демо і програма</a>
               </li>
               <li class="nav-list-item">
-                <a href="">ціна</a>
+                <a class="course-price-button">ціна</a>
               </li>
               <li class="nav-list-item">
-                <a href="">спікер</a>
+                <a class="course-speaker-button">спікер</a>
               </li>
             </ul>
             <button class="header-action-button">придбати</button>
@@ -142,13 +146,19 @@
                 <div class="container">
                   <nav class="menu-list">
                     <ul>
-                      <li class="menu-item about-us-button"><a>про курс</a></li>
-                      <li class="menu-item approach-button"><a>для кого</a></li>
-                      <li class="menu-item cases-button">
+                      <li class="menu-item course-about-button">
+                        <a>про курс</a>
+                      </li>
+                      <li class="menu-item course-for-button">
+                        <a>для кого</a>
+                      </li>
+                      <li class="menu-item course-demo-button">
                         <a>демо і програма</a>
                       </li>
-                      <li class="menu-item services-button"><a>ціна</a></li>
-                      <li class="menu-item services-button"><a>спікер</a></li>
+                      <li class="menu-item course-price-button"><a>ціна</a></li>
+                      <li class="menu-item course-speaker-button">
+                        <a>спікер</a>
+                      </li>
                     </ul>
                     <button class="header-action-button visible-button">
                       придбати
@@ -220,7 +230,9 @@
                   alt=""
                   class="header-content-person"
                 />
-                <button class="header-content-about-course-button">
+                <button
+                  class="header-content-about-course-button course-about-button"
+                >
                   про курс
                   <img src="./assets/images/header-course-arrow.svg" alt="" />
                 </button>

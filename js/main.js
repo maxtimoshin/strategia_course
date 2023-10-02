@@ -72,16 +72,18 @@ function showSuccessMessage(e) {
 }
 
 // Scroll To Buttons
-const aboutUsButton = document.querySelectorAll(".about-us-button");
-const approachButton = document.querySelectorAll(".approach-button");
-const casesButton = document.querySelectorAll(".cases-button");
-const servicesButton = document.querySelectorAll(".services-button");
+const courseAboutButton = document.querySelectorAll(".course-about-button");
+const courseForButton = document.querySelectorAll(".course-for-button");
+const courseDemoButton = document.querySelectorAll(".course-demo-button");
+const coursePriceButton = document.querySelectorAll(".course-price-button");
+const courseSpeakerButton = document.querySelectorAll(".course-speaker-button");
 
 // Scroll To Blocks
-const aboutUsBlock = document.querySelector(".about-us-block");
-const approachBlock = document.querySelector(".approach-block");
-const casesBlock = document.querySelector(".cases-scroll-block");
-const servicesBlock = document.querySelector(".services-scroll-block");
+const courseAboutBlock = document.querySelector(".trouble-cases-block");
+const courseForBlock = document.querySelector(".product-for-block");
+const courseDemoBlock = document.querySelector(".video-block");
+const coursePriceBlock = document.querySelector(".course-prices-block");
+const courseSpeakerBlock = document.querySelector(".person-block");
 
 // Scroll To Handler
 function scrollingToBlock(btn, block) {
@@ -96,10 +98,11 @@ function scrollingToBlock(btn, block) {
 }
 
 // ScrollTo listeners
-scrollingToBlock(aboutUsButton, aboutUsBlock);
-scrollingToBlock(approachButton, approachBlock);
-scrollingToBlock(casesButton, casesBlock);
-scrollingToBlock(servicesButton, servicesBlock);
+scrollingToBlock(courseAboutButton, courseAboutBlock);
+scrollingToBlock(courseForButton, courseForBlock);
+scrollingToBlock(courseDemoButton, courseDemoBlock);
+scrollingToBlock(coursePriceButton, coursePriceBlock);
+scrollingToBlock(courseSpeakerButton, courseSpeakerBlock);
 
 // custom select
 
