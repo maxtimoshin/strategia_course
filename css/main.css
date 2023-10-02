@@ -757,7 +757,7 @@
 .right-form-abstract {
     position: absolute;
     width: fit-content;
-    content: "";
+    /* content: ""; */
     z-index: -1;
 }
 

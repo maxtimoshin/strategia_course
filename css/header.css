@@ -9,7 +9,7 @@
 
 .header-abstraction {
     position: absolute;
-    content: "";
+    /* content: ""; */
     z-index: -1;
 }
 
