@@ -97,7 +97,7 @@
     content: "";
     display: inline-block;
     background: #810000;
-    width: 10px;
-    height: 10px;
+    min-width: 10px;
+    min-height: 10px;
     border-radius: 50%;
 }

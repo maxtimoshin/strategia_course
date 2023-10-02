@@ -10,9 +10,596 @@
         zoom: 1.1 !important;
     }
 }
-
+/* 
 @media (min-width: 360px) and (max-width: 600px) {
     :root {
-        zoom: 1 !important;
+        zoom: 1.2 !important;
+    }
+} */
+
+@media (max-width: 940px) {
+    .nav-list,
+    .header-action-button {
+        display: none;
+    }
+    .visible-button {
+        display: flex;
+        margin: 0 auto 20px auto;
+    }
+    .header-nav {
+        border: none;
+    }
+    .header-content h1 {
+        font-size: 80px;
+    }
+    .header-content h2 {
+        font-size: 20px;
+    }
+    .header-content-description {
+        font-size: 22px;
+    }
+    .left-header-abstraction {
+        left: -110px;
+    }
+    .right-header-abstraction {
+        right: -90px;
+    }
+    .header {
+        margin: 0 0 100px 0;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .trouble-case {
+        font-size: 20px;
+    }
+    .upper-block-title-text {
+        font-size: 32px;
+    }
+    .lower-block-title-text {
+        font-size: 20px;
+    }
+    .opinion-content {
+        font-size: 20px;
+    }
+    .product-for-item {
+        font-size: 32px;
+    }
+    .product-for-item span {
+        font-size: 20px;
+    }
+    .video-block iframe {
+        height: 420px !important;
+    }
+    .sub-title {
+        font-size: 20px;
+    }
+    .left-accordion-abstract {
+        left: -140px;
+    }
+    .right-accordion-abstract {
+        right: -160px;
+    }
+    .accordion span {
+        font-size: 26px;
+    }
+    .accordion-list li {
+        font-size: 20px;
+    }
+    .video-access-label {
+        font-size: 20px;
+    }
+    .course-title {
+        font-size: 24px;
+    }
+    .course-consult {
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+    .course-price {
+        margin: 0 0 30px 0;
+    }
+    .course-benefits-list li {
+        font-size: 18px;
+    }
+    .course-action-button {
+        font-size: 20px;
+    }
+    .single-achievement .number {
+        font-size: 24px;
+        margin: 0 0 30px 0;
+    }
+    .single-achievement {
+        font-size: 20px;
+    }
+    .person-info img {
+        max-width: 200px;
+    }
+    .person-info span {
+        font-size: 20px;
+        text-align: center;
+    }
+    .footer-links {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 820px) {
+    .course-prices-block {
+        align-items: center;
+    }
+    .courses-prices-content {
+        flex-direction: column;
+        gap: 30px;
+        max-width: 500px;
+    }
+    .course-item,
+    .course-item.middle-course {
+        background: #fff;
+    }
+    .course-benefits-list li::before {
+        min-width: 5px;
+        min-height: 5px;
+        width: 5px;
+        height: 5px;
+    }
+    .lower-clients-list {
+        width: 80%;
+    }
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+        place-content: center;
+    }
+    .footer-link {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .video-production-block {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+        gap: 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo img {
+        max-width: 30px;
+    }
+    .header-content-about-course-center-block {
+        gap: 75px;
+    }
+    .header-content-about-course > picture > img {
+        top: 60%;
+        transform: translateY(-50%);
+    }
+    .header-content-about-course > picture:first-child > img {
+        left: 10%;
+    }
+
+    .header-content-about-course > picture:last-child > img {
+        right: 10%;
+    }
+    .header-content h1 {
+        font-size: 50px;
+    }
+    .header-nav {
+        height: 60px;
+    }
+    .header {
+        margin: 0 0 70px 0;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .trouble-case {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    .right-trouble-case {
+        padding: 12px 20px;
+    }
+
+    .right-trouble-case:last-child {
+        padding: 12px 20px 12px 40px;
+        width: 80%;
+    }
+    .trouble-cases {
+        gap: 10px;
+    }
+    .upper-block-title-text {
+        font-size: 20px;
+        width: 75%;
+    }
+    .lower-block-title-text {
+        font-size: 16px;
+        width: 75%;
+    }
+    .trouble-cases-block {
+        gap: 30px;
+    }
+    .trouble-cases-block {
+        margin: 0 0 50px 0;
+    }
+    .opinions-block {
+        margin: 50px 0;
+    }
+    .product-for-item {
+        font-size: 32px;
+    }
+    .product-for-item span {
+        font-size: 20px;
+    }
+    .product-for-content {
+        flex-direction: column;
+    }
+    .after-passing-item {
+        font-size: 20px;
+    }
+    .video-block iframe {
+        height: 320px !important;
+        border-radius: 10px !important;
+    }
+    .sub-title {
+        font-size: 16px;
+    }
+    .after-passing-block {
+        margin: 0 0 100px 0;
+    }
+    .accordion span {
+        font-size: 24px;
+    }
+    .accordion span:first-child {
+        margin: 0 15px 0 0;
+    }
+    .accordion {
+        padding: 0 10px 0 20px;
+        min-height: 50px;
+    }
+    .accordion-cross {
+        width: 20px;
+        height: 20px;
+    }
+
+    .accordion-cross::before,
+    .accordion-cross::after {
+        width: 16px;
+        height: 2px;
+    }
+    .course-program-content {
+        gap: 10px;
+    }
+    .accordion-list li {
+        font-size: 16px;
+    }
+
+    .accordion-list li::before {
+        min-width: 5px;
+        min-height: 5px;
+    }
+    .video-access-label {
+        font-size: 16px;
+    }
+    .course-program-content {
+        margin: 50px 0 10px 0;
+    }
+    .about-price-title {
+        font-size: 20px;
+        gap: 10px;
+    }
+    .about-price-description {
+        font-size: 16px;
+        margin: 10px 0 0 0;
+        width: 95%;
+    }
+    .about-price-title img {
+        transform: scale(0.6);
+    }
+    .about-price-item {
+        margin: 0 0 30px 0;
+    }
+    .format-grid {
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .format-grid-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .format-grid-item img {
+        max-width: 50px;
+    }
+    .format-grid-item p {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .last-format-grid-item {
+        grid-area: initial;
+    }
+    .about-price-content {
+        margin: 0 0 20px 0;
+    }
+    .format-block {
+        gap: 30px;
+        margin: 0 0 50px 0;
+    }
+    .get-button {
+        padding: 10px 117px;
+        margin: 30px 0 0 0;
+    }
+    .aware-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        place-items: center;
+    }
+    .bottom-grid-aware-item {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    .aware-block {
+        gap: 30px;
+        margin: 0 0 20px 0;
+    }
+    .aware-item {
+        border: 1px solid #810000;
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        flex-direction: column;
+        gap: 10px;
+        height: 100px;
+        flex: 1;
+        text-align: center;
+        font-size: 16px;
+        padding: 20px 10px;
+    }
+    .aware-item p {
+        flex: 1;
+    }
+    .aware-item span {
+        flex: 1;
+        font-size: 30px;
+    }
+    .bottom-grid-aware-item {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
+        height: 50px;
+        align-self: flex-start;
+    }
+    .bottom-grid-aware-item span {
+        flex: initial;
+    }
+    .single-achievement .number {
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+    .single-achievement {
+        font-size: 16px;
+    }
+    .person-info img {
+        max-width: 200px;
+    }
+    .person-info span {
+        font-size: 24px;
+        text-align: center;
+    }
+    .person-block {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .person-achievements {
+        grid-row-gap: 80px;
+        grid-column-gap: 40px;
+    }
+    .upper-clients-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 30px;
+        place-items: center;
+    }
+
+    .lower-clients-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        place-items: center;
+        width: 100%;
+    }
+    .clients-content {
+        gap: 30px;
+        margin: 30px 0 0 0;
+    }
+    .upper-clients-list img,
+    .lower-clients-list img {
+        transform: scale(0.8);
+        width: 100%;
+        max-width: fit-content;
+    }
+    .person-block {
+        margin: 40px 0 100px;
+    }
+    .lower-clients-list img {
+        width: 100%;
+    }
+    .contact-form input {
+        height: 40px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 16px;
+    }
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+        font-size: 16px;
+    }
+    .contact-form {
+        padding: 30px 20px;
+    }
+    .contact-form button {
+        height: 40px;
+        font-size: 16px;
+    }
+    .contact-form textarea {
+        margin: 0 0 10px 0;
+    }
+    .buro-link-block img {
+        max-width: 50px;
+    }
+    .buro-link-block span {
+        font-size: 16px;
+        padding: 0 40px;
+    }
+    .buro-link-block a button {
+        max-width: 300px;
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        font-size: 16px;
+    }
+    .buro-link-block a {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 520px) {
+    .header-content h2 {
+        font-size: 12px;
+        margin: 20px 0 0 0;
+        border-radius: 5px;
+    }
+    .header-content h1 {
+        font-size: 30px;
+    }
+    .header-content-about-course > picture:first-child > img {
+        left: 0%;
+    }
+
+    .header-content-about-course > picture:last-child > img {
+        right: 0%;
+    }
+    .header-content h1 {
+        margin: 20px 0;
+    }
+    .header-content-description {
+        font-size: 16px;
+    }
+    .header-content-about-course-button {
+        font-size: 16px;
+    }
+    .header-content-about-course-button img {
+        width: 20px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .opinion > picture img {
+        width: 30px;
+        transform: translateY(20px);
+    }
+    .right-opinion > picture img {
+        transform: translateY(20px) scaleX(-1);
+    }
+    .opinion-content {
+        font-size: 16px;
+        width: 60%;
+    }
+    .product-for-item {
+        font-size: 20px;
+    }
+    .product-for-item span {
+        font-size: 16px;
+    }
+    .product-for-item,
+    .product-for-item.longer {
+        height: 300px;
+    }
+    .product-for-item img {
+        transform: scale(0.7);
+    }
+    .after-passing-item {
+        font-size: 16px;
+        gap: 15px;
+    }
+    .after-passing-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-gap: 40px;
+        max-width: 260px;
+        align-items: center;
+    }
+    .after-passing-block {
+        align-items: center;
+    }
+    .video-block iframe {
+        height: 260px !important;
+    }
+    .accordion span {
+        font-size: 20px;
+    }
+    .video-access-label {
+        width: 100%;
+        padding: 7px 0;
+    }
+    .person-achievements {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .person-block {
+        gap: 60px;
+    }
+    .get-button {
+        width: 100%;
+    }
+    .video-production-block img {
+        max-width: 260px;
+    }
+    .buro-link-block {
+        margin: 0 0 50px 0;
+    }
+    .video-production-block span {
+        font-size: 20px;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 340px) {
+    .video-block iframe {
+        height: 160px !important;
     }
 }

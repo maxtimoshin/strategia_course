@@ -136,6 +136,63 @@
               </li>
             </ul>
             <button class="header-action-button">придбати</button>
+            <div class="burger-menu">
+              <div class="menu-icon"><div class="menu-icon-line"></div></div>
+              <nav class="menu-body">
+                <div class="container">
+                  <nav class="menu-list">
+                    <ul>
+                      <li class="menu-item about-us-button"><a>про курс</a></li>
+                      <li class="menu-item approach-button"><a>для кого</a></li>
+                      <li class="menu-item cases-button">
+                        <a>демо і програма</a>
+                      </li>
+                      <li class="menu-item services-button"><a>ціна</a></li>
+                      <li class="menu-item services-button"><a>спікер</a></li>
+                    </ul>
+                    <button class="header-action-button visible-button">
+                      придбати
+                    </button>
+                  </nav>
+                </div>
+                <div class="menu-footer">
+                  <div class="container">
+                    <div class="burger-social">
+                      <a
+                        href="https://www.instagram.com/strategy.buro/"
+                        target="_blank"
+                        class="instagram"
+                      >
+                        <img
+                          src="./assets/images/instagram-icon.svg"
+                          alt=""
+                        />strategy.buro
+                      </a>
+                      <a
+                        href="https://www.facebook.com/strategy.buro/"
+                        target="_blank"
+                        class="facebook"
+                      >
+                        <img
+                          src="./assets/images/facebook-icon.svg"
+                          alt=""
+                        />strategy.buro
+                      </a>
+                      <a
+                        href="mailto:strategy.buro@gmail.com"
+                        target="_blank"
+                        class="email"
+                      >
+                        <img
+                          src="./assets/images/mail-icon.svg"
+                          alt=""
+                        />strategy.buro@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
           </div>
           <div class="header-content">
             <h2>курс з маркетингу та стратегії</h2>
@@ -144,10 +201,19 @@
               повний курс про те, як створювати ефективні маркетингові стратегії
             </div>
             <div class="header-content-about-course">
-              <img
-                src="./assets/images/left-header-about-course-text.png"
-                alt=""
-              />
+              <picture>
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    ./assets/images/left-header-about-course-text-small.svg
+                  "
+                />
+                <img
+                  src="./assets/images/left-header-about-course-text.png"
+                  alt=""
+                />
+              </picture>
+
               <div class="header-content-about-course-center-block">
                 <img
                   src="./assets/images/person-picture.webp"
@@ -159,11 +225,18 @@
                   <img src="./assets/images/header-course-arrow.svg" alt="" />
                 </button>
               </div>
-
-              <img
-                src="./assets/images/right-header-about-course-text.png"
-                alt=""
-              />
+              <picture>
+                <source
+                  media="(max-width: 600px)"
+                  srcset="
+                    ./assets/images/right-header-about-course-text-small.svg
+                  "
+                />
+                <img
+                  src="./assets/images/right-header-about-course-text.png"
+                  alt=""
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -218,18 +291,30 @@
                   маркетинг — не тільки про креатив.<br />
                   <span>маркетинг</span> — в першу чергу про <span>гроші</span>
                 </div>
-                <img
-                  src="./assets/images/opinion-arrow.svg"
-                  alt=""
-                  class="opinion-arrow"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 520px)"
+                    srcset="./assets/images/opinion-arrow-small.svg"
+                  />
+                  <img
+                    src="./assets/images/opinion-arrow.svg"
+                    alt=""
+                    class="opinion-arrow"
+                  />
+                </picture>
               </div>
               <div class="opinion right-opinion">
-                <img
-                  src="./assets/images/opinion-arrow.svg"
-                  alt=""
-                  class="opinion-arrow"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 520px)"
+                    srcset="./assets/images/opinion-arrow-small.svg"
+                  />
+                  <img
+                    src="./assets/images/opinion-arrow.svg"
+                    alt=""
+                    class="opinion-arrow"
+                  />
+                </picture>
                 <div class="opinion-content">
                   мета курсу — допомогти зробити так,<br />
                   щоб ваш бізнес працював
@@ -242,11 +327,17 @@
                   бо <span>стратегічний маркетинг</span> — це<br />
                   системний, запланований ріст бізнесу
                 </div>
-                <img
-                  src="./assets/images/opinion-arrow.svg"
-                  alt=""
-                  class="opinion-arrow"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 520px)"
+                    srcset="./assets/images/opinion-arrow-small.svg"
+                  />
+                  <img
+                    src="./assets/images/opinion-arrow.svg"
+                    alt=""
+                    class="opinion-arrow"
+                  />
+                </picture>
               </div>
               <div class="opinion right-opinion">
                 <div class="opinion-content">
@@ -366,9 +457,7 @@
               формат
             </div>
             <iframe
-              width="941"
-              height="530"
-              style="border-radius: 20px"
+              style="border-radius: 20px; width: 100%; height: 530px"
               src="https://www.youtube.com/embed/HKdqETLuivY"
               title="Запрошення на курс «все по ... плану»"
               frameborder="0"
@@ -660,12 +749,14 @@
             <div class="format-grid">
               <div class="format-grid-item">
                 <img src="./assets/images/fhd.svg" alt="" />
-                22 відео в записі,<br />
-                у високій якості
+                <p>
+                  22 відео в записі,<br />
+                  у високій якості
+                </p>
               </div>
               <div class="format-grid-item">
                 <img src="./assets/images/eye.svg" alt="" />
-                дивись тоді коли тобі зручно
+                <p>дивись тоді коли тобі зручно</p>
               </div>
               <div class="format-grid-item">
                 <img src="./assets/images/clock.svg" alt="" />
@@ -676,19 +767,19 @@
               </div>
               <div class="format-grid-item">
                 <img src="./assets/images/youtube-icon.svg" alt="" />
-                зручний перегляд на YouTube
+                <p>зручний перегляд на YouTube</p>
               </div>
               <div class="format-grid-item">
                 <img src="./assets/images/infitine.svg" alt="" />
-                немає дати старту та кінця
+                <p>немає дати старту та кінця</p>
               </div>
               <div class="format-grid-item">
                 <img src="./assets/images/robot.svg" alt="" />
-                телеграм-бот для комунікації
+                <p>телеграм-бот для комунікації</p>
               </div>
               <div class="format-grid-item last-format-grid-item">
                 <img src="./assets/images/tools.svg" alt="" />
-                лише реальні інструменти, які я використовую в роботі
+                <p>лише реальні інструменти, які я використовую в роботі</p>
               </div>
             </div>
             <div class="get-button">придбати</div>
@@ -698,14 +789,16 @@
             <div class="aware-content">
               <div class="aware-item">
                 <span>#1</span>
-                набридливих<br />
-                кураторів
+                <p>
+                  набридливих<br />
+                  кураторів
+                </p>
               </div>
               <div class="aware-item">
                 <span>#2</span>
-                зайвих чатів
+                <p>зайвих чатів</p>
               </div>
-              <div class="aware-item">
+              <div class="aware-item bottom-grid-aware-item">
                 <span>#3</span>
                 нікому не потрібних<br />
                 сертифікатів
@@ -715,9 +808,7 @@
           <div class="video-block bottom-video-block">
             <div class="title">хто говорить?</div>
             <iframe
-              width="941"
-              height="530"
-              style="border-radius: 20px"
+              style="border-radius: 20px; width: 100%; height: 530px"
               src="https://www.youtube.com/embed/HKdqETLuivY"
               title="Запрошення на курс «все по ... плану»"
               frameborder="0"
@@ -826,16 +917,18 @@
             </form>
           </div>
         </div>
-        <div class="buro-link-block">
-          <img src="./assets/images/buro-logo.svg" alt="" />
-          <div class="title">
-            якщо вас цікавить<br />
-            створення проєкту під ключ
+        <div class="container">
+          <div class="buro-link-block">
+            <img src="./assets/images/buro-logo.svg" alt="" />
+            <div class="title">
+              якщо вас цікавить<br />
+              створення проєкту під ключ
+            </div>
+            <span>то пропоную перейти на сайт бюро</span>
+            <a href="https://strategy-buro.com/" target="_blank"
+              ><button>перейти</button></a
+            >
           </div>
-          <span>то пропоную перейти на сайт бюро</span>
-          <a href="https://strategy-buro.com/" target="_blank"
-            ><button>перейти</button></a
-          >
         </div>
         <div class="container">
           <div class="video-production-block">

@@ -10,6 +10,7 @@
 .header-abstraction {
     position: absolute;
     content: "";
+    z-index: -1;
 }
 
 .left-header-abstraction {
@@ -34,6 +35,8 @@
 .logo {
     width: 45px;
     height: 37px;
+    position: relative;
+    z-index: 102;
 }
 
 .logo img {
@@ -91,6 +94,7 @@
     font-weight: 700;
     font-size: 100px;
     margin: 40px 0 20px 0;
+    text-align: center;
 }
 .header-content h2 {
     margin: 65px 0 0 0;
@@ -118,7 +122,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
 }
 
 .header-content-about-course-center-block {
@@ -133,8 +138,19 @@
     width: 100%;
 }
 
-.header-content-about-course > img {
+.header-content-about-course > picture > img {
+    position: absolute;
     align-self: flex-end;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-content-about-course > picture:first-child > img {
+    left: 0;
+}
+
+.header-content-about-course > picture:last-child > img {
+    right: 0;
 }
 
 .header-content-about-course-button {
