@@ -27,3 +27,10 @@
 .footer-link:hover {
     color: #810000;
 }
+
+.footer-fop-info {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+    line-height: normal;
+}

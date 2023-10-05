@@ -251,7 +251,7 @@ function showFormAlert() {
 }
 
 function generateOrderRequest(company, name, jobTitle, phone, email, option) {
-  const url = "https://courageous-shift-elk.cyclic.cloud/createOrder";
+  const url = "https://lovely-mite-sombrero.cyclic.cloud/createOrder";
 
   const requestBody = { company, name, jobTitle, phone, email, option };
 

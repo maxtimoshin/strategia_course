@@ -133,10 +133,10 @@
         gap: 30px;
         max-width: 500px;
     }
-    .course-item,
+    /* .course-item,
     .course-item.middle-course {
         background: #fff;
-    }
+    } */
     .course-benefits-list li::before {
         min-width: 5px;
         min-height: 5px;
@@ -580,7 +580,7 @@
         width: 100%;
     }
     .video-production-block img {
-        max-width: 260px;
+        max-width: 250px;
     }
     .buro-link-block {
         margin: 0 0 50px 0;

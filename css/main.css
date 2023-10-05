@@ -875,5 +875,6 @@
 }
 
 .video-production-block img {
-    width: fit-content;
+    max-width: 280px;
+    width: 100%;
 }
